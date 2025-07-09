@@ -6,7 +6,7 @@ model = joblib.load("model1.pkl")
 
 st.title("Calories Burnt Prediction")
 st.divider()
-st.write("this ml app helps you predict the the no of calories burnt during excercies while using parameter such as height, weight, age ,durations and gender")
+st.write("This ml app helps you predict the the no of calories burnt during excercies while using parameter such as height, weight, age ,durations and gender")
 
 st.divider()
 Height= st.number_input("Your height in cms", min_value = 0,value= 140)
